@@ -244,3 +244,47 @@ body {
 }
 
 
+
+@media (max-width: 900px) {
+  .nav {
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+
+  .menu {
+    order: 3;
+    width: 100%;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+
+  .actions {
+    order: 2;
+  }
+}
+
+
+@media (max-width: 600px) {
+  .nav {
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+  }
+
+  .menu {
+    flex-direction: column;
+    gap: 14px;
+  }
+
+  .actions {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .login,
+  .trial {
+    width: 100%;
+    max-width: 280px;
+  }
+}
